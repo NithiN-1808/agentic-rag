@@ -27,7 +27,8 @@ A fully custom chatbot built with Agentic RAG (Retrieval-Augmented Generation), 
 agentic_rag/
 ├── backend/
 │   ├── embeddings.py    # Embedding and similarity functions
-│   ├── rag_engine.py    # Core RAG implementation
+│   ├── rag_engine.py
+    |__ fine_tune_lora.py    # Core RAG implementation
 │   └── server.py        # FastAPI server
 ├── frontend/
 │   └── index.html       # Web interface
