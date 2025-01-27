@@ -47,7 +47,7 @@ agentic_rag/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/AndrewNgo-ini/agentic_rag.git
+git clone https://github.com/NithiN-1808/agentic-rag.git
 cd agentic_rag
 ```
 
@@ -91,14 +91,7 @@ python -m http.server 3000
 
 Then visit http://localhost:3000 in your browser.
 
-## Usage
 
-1. Type your question in the input field
-2. The system will:
-   - Retrieve relevant context using embeddings
-   - Generate a step-by-step reasoning process
-   - Provide a final answer based on the context and reasoning
-3. View the intermediate steps and reasoning process in the response
 
 ## Configuration
 
@@ -111,33 +104,7 @@ The application can be configured through environment variables:
 | HOST | Backend server host | 0.0.0.0 |
 | PORT | Backend server port | 8000 |
 
-## Error Handling
 
-The application includes comprehensive error handling:
-
-- API errors are logged and returned with appropriate status codes
-- Frontend displays user-friendly error messages
-- Detailed logging for debugging and monitoring
-- Graceful fallbacks for common failure scenarios
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -am 'Add feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
-
-Please ensure your code:
-- Includes appropriate tests
-- Follows the existing code style
-- Updates documentation as needed
-- Includes type hints
-- Has meaningful commit messages
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Security
 
@@ -146,24 +113,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Follow security best practices for production deployment
 - Report security issues through GitHub's security advisory
 
-## Troubleshooting
 
-Common issues and solutions:
-
-1. **OpenAI API Error**
-   - Verify your API key is correct
-   - Check your API usage limits
-   - Ensure the model name is valid
-
-2. **Backend Connection Failed**
-   - Confirm the backend server is running
-   - Check the port is not in use
-   - Verify firewall settings
-
-3. **Embedding Errors**
-   - Ensure input text is not empty
-   - Check for proper text encoding
-   - Verify numpy installation
 
 ## Acknowledgments
 
